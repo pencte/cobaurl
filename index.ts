@@ -44,7 +44,7 @@ app.use((req: Request, _res: Response, next: NextFunction) => {
 
 // @note root endpoint
 app.get('/', (_req: Request, res: Response) => {
-  res.send('Hello, world!');
+  res.send('Login Url by Test');
 });
 
 /**
